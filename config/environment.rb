@@ -1,7 +1,7 @@
 # Be sure to restart your server when you modify this file
 
 # Specifies gem version of Rails to use when vendor/rails is not present
-RAILS_GEM_VERSION = '2.3.5' unless defined? RAILS_GEM_VERSION
+RAILS_GEM_VERSION = '2.3.8' unless defined? RAILS_GEM_VERSION
 
 # Bootstrap the Rails environment, frameworks, and default configuration
 require File.join(File.dirname(__FILE__), 'boot')
@@ -28,8 +28,6 @@ Rails::Initializer.run do |config|
   config.gem 'formtastic',
              :version => '>= 0.9.10'
   config.gem 'paperclip'
-  config.gem 'rack',
-             :version => '>= 1.0.1'
   config.gem 'validation_reflection',
              :version => '>= 0.3.6'
   config.gem 'hoptoad_notifier'
